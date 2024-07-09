@@ -2,6 +2,10 @@ MIT License
 
 Copyright (c) 2024 Konstantin Chaika
 
+This software is based on David Souther's 'Nand to Tetris Online IDE'. Please check [here](https://github.com/nand2tetris/web-ide/blob/main/LICENSE) for further information.
+This software is based on Stefano Volpe's 'Nand2Tetris Tools'. Please check [here](https://github.com/foxyseta/nand-ide/blob/master/LICENSE) for further information.
+This software is based on Aviv Yaish's 'NAND IDE'. Please check [here](https://github.com/AvivYaish/nand-ide/blob/master/LICENSE) for further information.
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
