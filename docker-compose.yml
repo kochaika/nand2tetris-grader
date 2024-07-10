@@ -1,0 +1,7 @@
+services:
+  n2t:
+    image: n2t-image
+    build: .
+    volumes:
+      - ./docker-entrypoint.sh:/docker-entrypoint.sh
+    entrypoint: /docker-entrypoint.sh
