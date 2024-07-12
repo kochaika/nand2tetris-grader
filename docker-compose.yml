@@ -3,5 +3,6 @@ services:
     image: n2t-image
     build: .
     volumes:
-      - ./docker-entrypoint.sh:/docker-entrypoint.sh
-    entrypoint: /docker-entrypoint.sh
+      - ./tests:/tests
+    command:
+      - /tests/pass
