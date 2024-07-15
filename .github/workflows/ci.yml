@@ -3,7 +3,7 @@ name: CI Tests
 on:
   # Triggers the workflow on push or pull request events but only for the "master" branch
   push:
-    branches: [ " " ]
+    branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
 
@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v4
+      - name: Build Docker image
+        uses: docker compose build
       - name: Run success tests
         run: docker compose run n2t /tests/pass/
       - name: Run fails tests
