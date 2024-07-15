@@ -1,0 +1,12 @@
+name: 'Nand2Tetris Grader'
+description: 'Grade Nand2Tetris course projects'
+
+inputs:
+  dir:
+    description: 'Project dir'
+    required: true
+runs:
+  using: 'docker'
+  image: pro100kot/nand2tetris-grader:latest
+  args:
+    - ${{ inputs.dir}}
