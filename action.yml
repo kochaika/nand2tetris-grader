@@ -6,7 +6,12 @@ inputs:
     description: 'Project dir'
     required: true
 runs:
-  using: 'docker'
-  image: docker://pro100kot/nand2tetris-grader:latest
-  args:
-    - ${{ inputs.dir}}
+  using: actions/checkout@v4
+  script:
+    - echo Hello, world!
+    - ls -la $GITHUB_WORKSPACE
+#  using: 'docker'
+#  image: docker://pro100kot/nand2tetris-grader:latest
+#  args:
+#    - ${{ inputs.dir}}
+
