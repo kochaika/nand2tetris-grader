@@ -7,6 +7,6 @@ inputs:
     required: true
 runs:
   using: 'docker'
-  image: pro100kot/nand2tetris-grader:latest
+  image: docker://pro100kot/nand2tetris-grader:latest
   args:
     - ${{ inputs.dir}}
