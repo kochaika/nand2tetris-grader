@@ -1,4 +1,4 @@
-# nand2tetris-grader ![CI Tests status](https://github.com/kochaika/nand2tetris-grader/actions/workflows/ci.yml/badge.svg)
+# nand2tetris-grader ![CI Tests status](https://github.com/kochaika/nand2tetris-grader/actions/workflows/ci.yml/badge.svg) ![Deploy status](https://github.com/kochaika/nand2tetris-grader/actions/workflows/release.yml/badge.svg)
 
 This repo with docker image is using as a base for grading [nand2tetris](https://www.nand2tetris.org/) tasks via GitHub Actions.  
 Based on [nand2tetris web-ide](https://github.com/nand2tetris/web-ide).
