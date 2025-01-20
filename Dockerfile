@@ -5,6 +5,7 @@ LABEL authors="Konstantin.Chaika"
 RUN git clone -b shitfix_project_05 https://github.com/kochaika/web-ide /web-ide
 
 COPY Max.hack /Max.hack
+COPY projects /projects
 
 WORKDIR /web-ide
 RUN npm install
